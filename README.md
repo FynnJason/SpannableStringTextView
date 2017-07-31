@@ -45,3 +45,11 @@ StrikethroughSpan strikethroughSpan = new StrikethroughSpan();
 spannableString.setSpan(strikethroughSpan, 5, spannableString.length(), Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
 binding.contentFour.setText(spannableString);
 ```
+
+###设置文字下划线
+```
+        spannableString = new SpannableString("为文字设置下划线");
+        UnderlineSpan underlineSpan = new UnderlineSpan();
+        spannableString.setSpan(underlineSpan, 5, spannableString.length(), Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
+        binding.contentFive.setText(spannableString);
+```
